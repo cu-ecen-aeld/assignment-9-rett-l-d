@@ -42,7 +42,7 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/aesdcharload_v1 $(TARGET_DIR)/etc/init.d/S99aesdchar
 
 
-	$(INSTALL) -m 0755 $(@D)/assignment-autotest/test/assignment8/drivertest.sh $(TARGET_DIR)/usr/bin/
+	
 endef
 
 # Evaluate the package as a generic package
